@@ -1,0 +1,8 @@
+Retention = 0
+Intensity single Polymerase = 1
+Plymerase speed = 25
+mRNA lenght before MS2 = 234
+MS2 lenght = 1292
+mRNA lenght after MS2 = 4526
+Minimum distance between polymerase = 30
+Time step = 6.35

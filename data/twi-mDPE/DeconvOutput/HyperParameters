@@ -1,0 +1,8 @@
+    FrameLen              = 6.35 # frame length in seconds or time resolution
+    retention             = 0 # in seconds
+    Polym_speed           = 25 # Polymerase speed'
+    TaillePreMarq         = 41 # length of mRNA until we reach the beginning of the MS2 sequence in bp
+    TailleSeqMarq         = 1292 # length of MS2 sequence in bp
+    TaillePostMarq        = 4526 + Polym_speed*retention # length of mRNA from last loop of MS2 until the polymerase leaves the TS
+    EspaceInterPolyMin    = 30 
+    Intensity_for_1_Polym = 1
