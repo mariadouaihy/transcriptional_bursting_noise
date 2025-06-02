@@ -22,7 +22,7 @@ This code quantifies transcriptional noise across different phenotypes by calcul
 
 To run the code, data for each phenotype must be stored in a standardized format:
 
-input_path/ 
+  input_path/ 
 
     ├──  phenotype_1/ 
 
