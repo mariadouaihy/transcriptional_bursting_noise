@@ -24,13 +24,13 @@ To run the code, data for each phenotype must be stored in a standardized format
 
 input_path/ 
 
-├── phenotype_1/ 
+  ├──  phenotype_1/ 
 
         ├── rawData/ # Contains raw MS2 fluorescence time series 
   
         └── DeconvOutput/ # Output from the burst deconvolution model
    
-├── phenotype_2/ 
+  ├──  phenotype_2/ 
     
         ├── rawData/ 
    
