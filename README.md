@@ -26,15 +26,15 @@ input_path/
 
 ├── phenotype_1/ 
 
----│ ├── rawData/ # Contains raw MS2 fluorescence time series 
+        ├── rawData/ # Contains raw MS2 fluorescence time series 
   
-   │ └── DeconvOutput/ # Output from the burst deconvolution model
+        └── DeconvOutput/ # Output from the burst deconvolution model
    
 ├── phenotype_2/ 
     
-   │ ├── rawData/ 
+        ├── rawData/ 
    
-   │ └── DeconvOutput/ ``` </pre>
+        └── DeconvOutput/ ``` </pre>
 
 ---
 
