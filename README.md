@@ -15,7 +15,7 @@ The analysis includes:
 To run the full analysis pipeline, use the following command in your Python environment:
 
 ```python
-noise(input_path, ["phenotype_1/", "phenotype_2/"], output_folder)
+noise(input_path, ["phenotype_1/", "phenotype_2/"], output_folder) ```
 
 ## Arguments:
 input_path: Root path where phenotype folders are stored
