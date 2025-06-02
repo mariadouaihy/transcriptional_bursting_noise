@@ -1,28 +1,24 @@
 # Transcriptional Noise Analysis in Early *Drosophila* Embryo
 
-This repository contains the code used to analyze transcriptional noise across different phenotypes as presented in the study:  
+This repository contains the code used in the study:
+
 **"Mitotic reactivation and transcriptional bursting govern transcriptional noise in the early *Drosophila* embryo"**
 
-## Overview
+---
 
-The analysis includes:
-- Computing **mean**, **variance**, and **Fano Factor (FF)** of transcriptional activity
-- Aggregating these metrics across **time windows** and **individual nuclei**
-- Comparing noise statistics across multiple **phenotypes**
+## Goal
 
-## Pipeline Usage
+This code quantifies transcriptional noise across different phenotypes by calculating:
 
-To run the full analysis pipeline, use the following command in your Python environment:
+- **Mean**, **variance**, and **Fano Factor (FF)** of transcriptional activity
+- Computed both:
+  - On **sliding time windows**
+  - **Per nucleus**
+- Comparison of transcriptional noise between **multiple phenotypes**
 
-```python
-noise(input_path, ["phenotype_1/", "phenotype_2/"], output_folder) ```
+---
 
-## Arguments:
-input_path: Root path where phenotype folders are stored
+## Folder Structure
 
-["phenotype_1/", "phenotype_2/"]: List of phenotype folder names (with trailing slashes)
+To run the code, data for each phenotype must be stored in a standardized format:
 
-output_folder: Path where you want the output figures and results to be stored
-
-## Folder Structure (per phenotype):
-Each phenotype folder must contain:
